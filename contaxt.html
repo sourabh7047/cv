@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<body>
+    <p>you can contant me through</p>
+    <ol>
+        <li><p>Email id:sourabhasharma15@gmail.com</p></li>
+        <li>contant number: 6263002939</li>
+    </ol>
+
+<!--hr = horizontal rule-->
+    <hr size="3" noshade="">
+    <p>For collabrative business fill this form:</p>
+    <center><h2><strong> FORM</strong></h2></center>
+    
+    <br>                   
+    <form action="mailto:sourabhasharma15@gmail.com" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="name">NAME: </label>
+            <input type="text" name="name" id="name" value="" placeholder="nickname" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">PASSSWORD:</label>
+            <input type="password" name="password" id="password" value="" placeholder="maximum 8 character" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+        </div>
+        <div>
+            <label for="profile pic">professional phtograph</label>
+            <input type="file" name="photograph" id="professional photograph">
+
+        </div>
+        <div>
+            <label for="age">age</label>
+            <input type="number" name="age" id="age" min="1" max="200" step="1" > 
+        </div>
+        <div>
+            <label for="born">born</label>
+            <input type="date" name="birthdate" id="born" min="1970-01-01" required>
+        </div>
+        <div>
+            <label for="gender">gender</label><br>
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">female</label>
+            <input type="radio" name="gender" id= "female">
+            <label for="others">others</label>
+            <input type="radio" name ="gender" id="others">
+        </div>
+        <div>
+            <label for="bio">biogrphy</label><br>
+            <textarea name="biography" id="bio" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="reset">reset</button>
+            <button type="submit">submit</button>
+        </div>
+    </form>    
+    
+    
+</body>
+</html>
